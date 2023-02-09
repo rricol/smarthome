@@ -24,6 +24,6 @@ window.Webflow.push(() => {
 		productList.eq(idList).remove();
 	};
 
-	openAccordion();
 	deleteMenu();
+	setTimout(openAccordion, 400);
 });
