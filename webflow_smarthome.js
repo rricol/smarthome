@@ -17,7 +17,6 @@ function openAccordion(){
 	  {
 		  idList = i;
 		};
-	  console.log(productList.eq(i).find('.navbar-dropdown1_dropdown-link').innerHTML);
 	}
 	productList.eq(idList).remove();
   };
