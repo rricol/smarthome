@@ -21,5 +21,6 @@ function openAccordion(){
 	}
 	productList.eq(idList).remove();
   };
-  
-  window.onload = setTimeout(openAccordion, 500), setTimeout(deleteMenu, 500);
+
+openAccordion();
+deleteMenu();
