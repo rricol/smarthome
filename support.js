@@ -25,5 +25,5 @@ window.Webflow.push(() => {
 	};
 
 	deleteMenu();
-	setTimout(openAccordion, 400);
+	setTimout(openAccordion, 450);
 });
